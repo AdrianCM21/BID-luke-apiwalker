@@ -21,6 +21,7 @@ const Planets = () => {
         <p>Gravity: {data.results[id-1].gravity}</p>
       </div>)
       }
+      {error && <p>{error}</p>}
     </div>
   )
 }
